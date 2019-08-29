@@ -1,4 +1,4 @@
-package main.java.serviceImpl;
+package serviceImpl;
 
 import main.java.service.UserService;
 import org.springframework.stereotype.Component;

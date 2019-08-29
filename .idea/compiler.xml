@@ -7,11 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Study" />
         <module name="SpringStudy" />
+        <module name="Study" />
+        <module name="JavaStudy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="JavaStudy" target="6" />
       <module name="SpringStudy" target="1.5" />
       <module name="Study" target="1.5" />
     </bytecodeTargetLevel>
